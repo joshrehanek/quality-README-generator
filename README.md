@@ -1,2 +1,4 @@
-# quality-README-generator
-An app that gives the user a series of questions to answer and then generates a quality README.md.
+# this tha 
+## Description: that 
+## Installation: the
+## Usage: other## Contributing: thisn

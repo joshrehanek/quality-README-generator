@@ -1,0 +1,24 @@
+{
+  "name": "quality-README-generator",
+  "version": "1.0.0",
+  "description": "An app that gives the user a series of questions to answer and then generates a quality README.md.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshrehanek/quality-README-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshrehanek/quality-README-generator/issues"
+  },
+  "homepage": "https://github.com/joshrehanek/quality-README-generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
+}

@@ -19,7 +19,7 @@ return `
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Test](#test
+- [Test](#test)
 - [Contributing](#contributing)
 - [About](#about)
 - [License](#license)

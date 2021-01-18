@@ -66,10 +66,6 @@ function writeToFile(fileName, data) {
     //write file using location, file name, data; defines function
     fs.writeFileSync(path.join(__dirname, fileName), data);
     
-    // fs.writeFile('README.md', `# ${data.title} \n## Description: ${data.description} \n## Installation: ${data.installation}\n## Usage: ${data.usage}\## Contributing: ${data.contributing}`, (err) =>
-
-    //     err ? console.error(err) : console.log('Commit logged!')
-    // );
 }
 
 // TODO: Create a function to initialize app

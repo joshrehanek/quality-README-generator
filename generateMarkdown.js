@@ -15,6 +15,15 @@ function generateMarkdown(res) {
 return `
 # ${res.title}
 
+## Table of contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test](#test
+- [Contributing](#contributing)
+- [About](#about)
+- [License](#license)
+
 ## Description
 ${res.description} 
 ## Installation: 

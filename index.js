@@ -2,9 +2,9 @@
 const inquirer = require('inquirer');
 // We import the `fs` module to enable interaction with the file system
 const fs = require('fs');
-
+// Import path module to enable working with file & directory paths
 const path = require('path');
-
+// connects index.js to generateMarkdown.js
 const generateMarkdown = require('./generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -70,9 +70,13 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+    // inquirer pompts questions from questions object
     inquirer.prompt(questions)
+    //then takes the responses and...
     .then((res) => {
+        // console log responses
         console.log(res);
+        // sends all responses to writeToFile function using the spread operator; creates README2 as fileName
         writeToFile('README2.md', generateMarkdown({...res}));
     })
 }

@@ -8,7 +8,6 @@ const path = require('path');
 const generateMarkdown = require('./generateMarkdown');
 
 // TODO: Create an array of questions for user input
-
 const questions = [{
     type: 'input',
     message: 'Username:',
@@ -58,14 +57,11 @@ const questions = [{
 },
 ];
 
-
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log(data)
     //write file using location, file name, data; defines function
     fs.writeFileSync(path.join(__dirname, fileName), data);
-    
 }
 
 // TODO: Create a function to initialize app
@@ -77,7 +73,7 @@ function init() {
         // console log responses
         console.log(res);
         // sends all responses to writeToFile function using the spread operator; creates README2 as fileName
-        writeToFile('README2.md', generateMarkdown({...res}));
+        writeToFile('GeneratedREADME.md', generateMarkdown({...res}));
     })
 }
 

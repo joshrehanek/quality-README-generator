@@ -51,9 +51,13 @@ const questions = [{
 },
 {
     type: 'list',
-    message: 'Licenses:',
+    message: 'License:',
     name: 'license',
-    choices: ['MIT', 'CC0', 'IBM', 'Mozilla'],
+    choices: [
+        'MIT',  
+        'IBM', 
+        'Mozilla', 
+        'None']
 },
 ];
 

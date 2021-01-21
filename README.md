@@ -49,7 +49,7 @@ node index
 - https://github.com/joshrehanek/quality-README-generator
 
 ## Demo
-![Demo](.\assets\images\demo.gif)
+- ![Demo](./assets/images/demo.gif)
 
 ## Technologies
 - [node.js](https://nodejs.org/en//)

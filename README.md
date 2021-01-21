@@ -53,6 +53,9 @@ node index
 
 ## Technologies
 - [node.js](https://nodejs.org/en//)
+- [npm](https://www.npmjs.com/)
+- [inquirer](https://www.npmjs.com/package/inquirer)
+
 
 ## Summary
 
